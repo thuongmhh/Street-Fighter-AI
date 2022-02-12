@@ -1,6 +1,6 @@
 # Street Fighter II AI
 
-Trained with Reinforcement Learning / PPO / PyTorch / Stable Baselines
+Trained with Reinforcement Learning / PPO / PyTorch / Stable Baselines, inspired by [@nicknochnack](https://github.com/nicknochnack/StreetFighterRL).
 
 ## Techniques
 
