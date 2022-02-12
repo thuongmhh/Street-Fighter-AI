@@ -2,7 +2,7 @@
 Trained with Reinforcement Learning / PPO / PyTorch / Stable Baselines
 
 ## Techniques
-- Use health-based reward function instead of score-based so the agent can learn how to defense themself and attack the enemy.
+- Use health-based reward function instead of score-based so the agent can learn how to defense themself while attacking the enemy. It makes a defensive strategy to win the game. You may want to modify the function to penalize the time spent for a more offensive version.
 - Reduce the action space from MultiBinary(12) (4096 choices) to Discrete(14) to make the training more efficient.
 - Make the episode one fight only instead of best-of-three. It helps value estimation.
 - Preprocess the environment with AtariWrapper (NoopReset, FrameSkip, Resize, Grayscale) to reduce input size.
