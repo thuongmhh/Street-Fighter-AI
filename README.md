@@ -11,4 +11,5 @@ Trained with Reinforcement Learning / PPO / PyTorch / Stable Baselines
 ## Results
 - 100% win-rate against the enemy
 - Much HP remaining after the fight
-- Trained model is saved in the checkpoints directory
+- Trained model is saved in latest_model.zip
+- Training and Testing scripts can be viewed in StreetFighter.ipynb
